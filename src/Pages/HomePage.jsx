@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import bannerOne from "../Images/b1.jpg";
 import BannerTwo from "../Images/b2.jpg";
+import BannerThree from "../Images/b3.jpg"
 const HomePage = () => {
 
   const [currentImage, setCurrentImage] = useState(0);
 
   // Array of images to slide through
   const images = [
+    BannerThree,
     bannerOne,  // Add first image
     BannerTwo,  // Add second image
   ];
